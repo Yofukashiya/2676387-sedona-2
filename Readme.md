@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
-* Студент: [Роман Маслов](https://up.htmlacademy.ru/htmlcss-individual/2/user/2676387).
-* Наставник: `Неизвестно`.
+- Студент: [Роман Маслов](https://up.htmlacademy.ru/htmlcss-individual/2/user/2676387).
+- Наставник: [Макс Черненков](https://htmlacademy.ru/profile/dreamoctober).
+- Сайт: [Проект "Седона"](https://yofukashiya.github.io/2676387-sedona-2/)
 
 ---
 
