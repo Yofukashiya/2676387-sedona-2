@@ -6,10 +6,16 @@
     <title>Гостиницы Седоны</title>
   </head>
   <body>
-    <header class="inner-header">
+    <header class="inner-header" data-test="header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
-          <img class="page-header-logo" src="" alt="Логотип сайта «Седона»" />
+          <img
+            class="page-header-logo"
+            src="images/header-logo.svg"
+            alt="Логотип сайта «Седона»"
+            width="140"
+            height="70"
+          />
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -40,7 +46,7 @@
       </nav>
     </header>
 
-    <main class="main-inner">
+    <main class="main-inner" data-test="main">
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
@@ -55,7 +61,7 @@
         </ul>
       </header>
 
-      <section class="catalog-filters">
+      <section class="catalog-filters" data-test="filter">
         <h2 class="visually-hidden">Список фильтров для гостиниц</h2>
         <form
           class="catalog-filters-form"
@@ -145,7 +151,7 @@
         </form>
       </section>
 
-      <section class="catalog-content">
+      <section class="catalog-content" data-test="catalog">
         <h2 class="visually-hidden">Список гостиниц</h2>
         <p class="result-text">Найдено гостиниц: 38</p>
         <select class="select-contol" aria-label="Сортировка">
@@ -169,8 +175,10 @@
             <a class="catalog-card-link" href="#">
               <img
                 class="catalog-card-image"
-                src=""
+                src="images/catalog/catalog-1.jpg"
                 alt="Вид из пещеры на небо"
+                width="300"
+                height="212"
               />
               <h3 class="catalog-card-title">Amara Resort & Spa</h3>
             </a>
@@ -190,8 +198,10 @@
             <a class="catalog-card-link" href="#">
               <img
                 class="catalog-card-image"
-                src=""
+                src="images/catalog/catalog-2.jpg"
                 alt="Вид на горы и радугу"
+                width="300"
+                height="212"
               />
               <h3 class="catalog-card-title">Villas at Poco Diablo</h3>
             </a>
@@ -212,7 +222,13 @@
           </li>
           <li class="catalog-item">
             <a class="catalog-card-link" href="#">
-              <img class="catalog-card-image" src="" alt="Вид на горы днём" />
+              <img
+                class="catalog-card-image"
+                src="images/catalog/catalog-3.jpg"
+                alt="Вид на горы днём"
+                width="300"
+                height="212"
+              />
               <h3 class="catalog-card-title">Desert Quail Inn</h3>
             </a>
             <span>Гостиница</span>
@@ -228,7 +244,13 @@
           </li>
           <li class="catalog-item">
             <a class="catalog-card-link" href="#">
-              <img class="catalog-card-image" src="" alt="Вид на горы ночью" />
+              <img
+                class="catalog-card-image"
+                src="images/catalog/catalog-4.jpg"
+                alt="Вид на горы ночью"
+                width="300"
+                height="212"
+              />
               <h3 class="catalog-card-title">GreenTree Inn</h3>
             </a>
             <span>Гостиница</span>
@@ -267,7 +289,7 @@
         </ul>
       </section>
 
-      <section class="newsletter">
+      <section class="newsletter" data-test="subscribe">
         <h2 class="section-title">Подпишитесь на рассылку</h2>
         <p class="section-description-">
           Только полезная информация и никакого спама, честное бойскаутское!
@@ -288,7 +310,7 @@
       </section>
     </main>
 
-    <footer class="inner-footer">
+    <footer class="inner-footer" data-test="footer">
       <section class="footer-socials">
         <h2 class="visually-hidden">Наши социальные сети</h2>
         <ul class="socials-list">
@@ -322,7 +344,9 @@
         </address>
       </section>
 
-      <img class="footer-logo" src="" alt="Логотип HTML academy" />
+      <div class="footer-logo">
+        <span class="visually-hidden">Логотип HTML academy</span>
+      </div>
     </footer>
   </body>
 </html>
